@@ -1,0 +1,24 @@
+{
+  "name": "concurrency",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "non-blocking": "ts-node src/basic/non-blocking.ts",
+    "cpu-bound": "ts-node src/basic/cpu-bound.ts",
+    "child-exec": "ts-node src/child-processes/exec.ts",
+    "child-fork": "ts-node src/child-processes/fork.ts",
+    "child-spawn": "ts-node src/child-processes/spawn.ts",
+    "cluster": "ts-node src/clusters/cluster.ts",
+    "cluster:test": "ts-node src/clusters/cluster-test.ts",
+    "worker-threads": "ts-node src/worker-threads/parent-thread.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5"
+  }
+}
