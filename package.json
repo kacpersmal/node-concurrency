@@ -15,9 +15,7 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "dependencies": {
-    "fs": "^0.0.1-security"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/node": "^22.10.5"
   }
